@@ -41,6 +41,9 @@ table, th, td {
 
 tr:hover {background-color: #233237}
 
+tr:nth-child(even){background-color: #984b43}
+tr:nth-child(odd){background-color: #233237}
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;

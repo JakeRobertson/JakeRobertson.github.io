@@ -36,12 +36,10 @@ table {
 }
 
 table, th, td {
-    border: 2px dashed #eac67a;
+    border: 2px dashed #18121e;
 }
 
-tr:hover {background-color: #233237}
-
-tr:nth-child(even){background-color: #984b43}
+tr:nth-child(even){background-color: #eac67a}
 tr:nth-child(odd){background-color: #233237}
 
 

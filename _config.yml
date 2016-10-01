@@ -9,7 +9,7 @@ name: Jake Robertson
 description: undiscovered blogging talent
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: http://www.picsymag.com/wp-content/uploads/2015/07/funny-pokemon-gif-breaking-bad.gif
+avatar: https://media4.giphy.com/media/iWaaOpt0bQpjO/200_s.gif
 
 #
 # Flags below are optional
@@ -18,7 +18,7 @@ avatar: http://www.picsymag.com/wp-content/uploads/2015/07/funny-pokemon-gif-bre
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: jake.robertson@challoners.org
   facebook:
   flickr:
   github: 

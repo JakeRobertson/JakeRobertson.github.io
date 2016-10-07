@@ -43,6 +43,11 @@ td {
     vertical-align: middle;
 }
 
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
 
 tr:nth-child(even){background-color: #18121e}
 tr:nth-child(odd){background-color: #233237}

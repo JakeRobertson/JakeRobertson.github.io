@@ -38,6 +38,11 @@ table, th, td {
     border: 2px solid #ffffff;
 }
 
+td {
+    height: 50px;
+    vertical-align: middle;
+}
+
 
 tr:nth-child(even){background-color: #18121e}
 tr:nth-child(odd){background-color: #233237}

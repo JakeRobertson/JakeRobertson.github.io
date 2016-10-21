@@ -29,7 +29,7 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
-	background-color: rgba(204, 204, 204, 0.4);
+  background: rgba(204, 204, 204, 0.4);
 }
 
 table {
@@ -51,8 +51,8 @@ th, td {
 }
 
 
-//tr:nth-child(even){background-color: #18121e}
-//tr:nth-child(odd){background-color: #233237}
+tr:nth-child(even){background-color: #18121e}
+tr:nth-child(odd){background-color: #233237}
 
 
 h1, h2, h3, h4, h5, h6 {

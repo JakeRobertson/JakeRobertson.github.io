@@ -1,3 +1,5 @@
+    
+314 lines (251 sloc)  4.2 KB
 ---
 ---
 
@@ -18,8 +20,8 @@ html {
 }
 
 body {
-  background-image: url("https://www.xmple.com/wallpaper/orange-gingham-quad-striped-1920x1080-c4-f8d690-eac67a-d6b36b-bc9e61-l-326-a-45-f-15.svg");
-	font: 18px/1.4 $helvetica;
+	background-image: url("https://www.xmple.com/wallpaper/orange-gingham-quad-striped-1920x1080-c4-f8d690-eac67a-d6b36b-bc9e61-l-326-a-45-f-15.svg");
+  font: 18px/1.4 $helvetica;
   color: $black;
 }
 
@@ -28,7 +30,7 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
-  background: rgba(204, 204, 204, 0.6);
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
 table {
@@ -47,6 +49,7 @@ td {
 th, td {
     padding: 15px;
     text-align: left;
+}
 
 
 tr:nth-child(even){background-color: #18121e}
@@ -127,7 +130,7 @@ em, i {
 
 strong, b {
   font-weight: bold;
-
+}
 
 img {
   max-width: 100%;
@@ -305,7 +308,8 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
+
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
-}
 @import "svg-icons";
-}

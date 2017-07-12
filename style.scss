@@ -19,8 +19,10 @@ html {
 
 body {
   background-image: url("https://www.xmple.com/wallpaper/orange-gingham-quad-striped-1920x1080-c4-f8d690-eac67a-d6b36b-bc9e61-l-326-a-45-f-15.svg");
-	font: 18px/1.4 $helvetica;
-  color: $black;
+  background-reapeat: no-repeat;
+	background-attachment: fixed;
+  font: 18px/1.4 $helvetica;
+  color: $darkGray;	
 }
 
 .container {
@@ -30,6 +32,7 @@ body {
   width: 100%;
   background: rgba(204, 204, 204, 0.6);
   box-shadow: 0 4px 4px 3px rgba(0, 0, 0, 0.5), 0 4px 4px 3px rgba(0, 0, 0, 0.4);
+  border-radius: 7px;
 }
 
 table {
@@ -413,4 +416,23 @@ footer {
 }
 @import "highlights";
 @import "svg-icons";
+
+	li {
+  list-style-type: none;
+}
+
+.drop-links {
+  position: absolute;
+  display: none;
+  background-color: rgba(215, 215, 255, 0.75);
+  min-width: 140px;
+}
+
+.drop-links ul li{
+	padding: 10px;
+	display: block;
+}
+
+.drop-button:hover + .drop-links,.drop-links:hover,.drop-links ul li:hover {
+  display: block;
 }
